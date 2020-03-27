@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+#define rep(i,a,n) for (int i=a;i<n;i++)
 int tt;
 
 int main(){
@@ -43,7 +44,7 @@ int main(){
             }
         }
         if((ans[n-1] == ans[0])  && (type[n-1] != type[0])){
-            cout<<"shiva"<<endl;
+            // cout<<"shiva"<<endl;
             bool tip = false;
             int i=1;
             for(i;i<n;i++){
